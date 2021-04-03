@@ -22,7 +22,8 @@
   },
   "homepage": "https://github.com/neverendingqs/netlify-express#readme",
   "dependencies": {
-    "airtable": "^0.10.1"
+    "airtable": "^0.10.1",
+    "dotenv": "^8.2.0"
   },
   "devDependencies": {
     "body-parser": "^1.19.0",

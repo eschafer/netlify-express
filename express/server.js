@@ -18,6 +18,8 @@ var Airtable = require('airtable');
 let airtableBases = {};
 
 router.get('/airtable/getPrecinct', (req, res) => {
+  res.append('Access-Control-Allow-Origin', 'https://www.miriamforbrookline.com')
+
   const baseId = 'appg4XLB1jVJqWHkE';
   const tableName = '2020 Street Precinct Index';
 

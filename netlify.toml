@@ -1,7 +1,3 @@
 [build]
   command = "npm install && npm run build"
   functions = "functions"
-[[headers]]
-  for = "/*"
-  [headers.values]
-    Access-Control-Allow-Origin = "https://www.miriamforbrookline.com"
